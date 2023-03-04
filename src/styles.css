@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+.container {
+  border: 3px solid black;
+  height: fit-content;
+  display: grid;
+}
+.item {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+
+  border: 0.5px solid #f0f0f0;
+  border-style: none none solid none;
+}
+.itemTxt {
+  padding: 10px;
+  text-decoration: #000000;
+}
+.header {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: #212121;
+
+  border-style: none none solid none;
+}
+.searchaBar {
+  margin-bottom: 10px;
+  outline: none !important;
+}
+.chat {
+  margin-left: 40px;
+  color: #878787;
+}
+input {
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+}
+.emoji {
+  margin-left: 5px;
+}
+.time {
+  display: flex;
+  justify-content: flex-end;
+  color: #878787;
+}
+.personalChat {
+  display: flex;
+}
+.chatBox {
+  display: grid;
+  place-items: flex-end;
+  border: 2px solid black;
+}
